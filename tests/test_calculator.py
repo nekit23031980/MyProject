@@ -1,6 +1,6 @@
 import pytest
 
-from src.calculator import add, average, divide, multiply, subtract
+from src.calculator import add, average, divide, multiply, power, subtract
 
 
 def test_add():
@@ -31,3 +31,7 @@ def test_average():
 def test_average_empty():
     with pytest.raises(ValueError):
         average([])
+
+
+def test_power():
+    assert power(2, 3) == 8
