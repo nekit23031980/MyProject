@@ -31,3 +31,8 @@ def average(values: Iterable[float]) -> float:
     if not data:
         raise ValueError("Порожня послідовність")
     return sum(data) / len(data)
+
+
+def power(a: float, b: float) -> float:
+    """Повертає a у степені b."""
+    return a**b
