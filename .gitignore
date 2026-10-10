@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.scannerwork/
+sonar-scanner-*/
+sonar-scanner-cli-*.zip
+report.xml
+coverage.xml
+cloc-report.txt
+develop_changes.txt
