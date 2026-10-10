@@ -10,3 +10,4 @@ coverage.xml
 cloc-report.txt
 develop_changes.txt
 .coverage
+scan-log.txt
